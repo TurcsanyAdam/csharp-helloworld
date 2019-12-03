@@ -10,11 +10,7 @@ namespace Hello_World
             {
                 foreach (string name in args)
                 {
-                    if (name != "Program.cs")
-                    {
-                        Console.WriteLine("Hello " + name + " !");
-                    }
-                    
+                   Console.WriteLine($"Hello {name} !");
                 }
             }
             else
